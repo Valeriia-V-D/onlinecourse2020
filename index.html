@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DZ3</title>
+</head>
+<body>
+	<form action="#" method="get" name="registerForm">
+		<p> 
+			<span>Введите ваше имя:</span> <br>
+			<input type="text" name="name" placeholder="Введите имя"> <br>
+		</p>
+		<p>
+			<span>Введите вашу фамилию:</span> <br>
+			<input type="text" name="lastName" placeholder="Введите фамилию"> <br>
+		</p>
+		<p>
+			<span>Введите возраст:</span> <br>
+			<input type="Date" placeholder="Возраст" name="Date"> <br>
+		</p>
+		<p>
+			<span>Введите email:</span> <br>
+			<input type="email" placeholder="Ваш email" name="email">
+		</p>
+		<p>
+			<span>Введите ваш номер <br> В формате ХХХ-ХХХ-ХХХХ </span> <br>
+			<input type="tel" placeholder="Ваш номер" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="tel">
+			
+		</p>
+		<div>
+			<h4>Выберите размер:</h4>
+			<input type="radio" name="size" value="XS"> XS <br>
+			<input type="radio" name="size" value="S"> S <br>
+			<input type="radio" name="size" value="M"> M <br>
+			<input type="radio" name="size" value="L"> L <br>
+		</div> <br>
+
+		<div>
+			<h4>Дополнительные опции:</h4>
+			<input type="checkbox" name="opt" value="Delivery"> Доставка <br>
+			<input type="checkbox" name="opt" value="payByCredit"> Оплата картой <br>
+			<input type="checkbox" name="opt" value="CallMe"> Перезвоните мне <br>
+		</div> <br>
+
+		<div>
+			<h4>Выберите цвет:</h4>
+			<select name="color">
+			<option value="1">Красный</option>
+			<option value="2">Синий</option>
+			<option value="3">Белый</option>
+			<option value="4">Черный</option>
+		</select>
+		</div> <br>
+		
+
+		<button type="reset">Очистить</button>  
+		<button type="submit">Отправить</button>
+	</form>
+	
+</body>
+</html>
